@@ -1,0 +1,12 @@
+digraph G {
+  
+  node[shape=rectangle]
+    
+  root  -> left;
+  root  -> right;
+  left  -> left_left;
+  left  -> left_right;
+  right -> right_left;
+  right -> right_right;
+                
+}
