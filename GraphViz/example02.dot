@@ -1,0 +1,27 @@
+digraph G {
+  graph [splines=true];
+  node[shape=rectangle,fontname="Arial, sans-serif"]
+  
+  root[label="Root"]
+  left[label="Left\nChild",color="#0000ff"]
+  right[label="Right\nChild",color="#ff0000",shape=ellipse]
+  left_left[label="Left\nGrand Child",color="#0000ff"]
+  right_left[label="Right\nGrand Child",color="#ff0000",shape=ellipse]
+  left_right[label="Left\nGrand Child",color="#0000ff"]
+  right_right[label="Right\nGrand Child",color="#ff0000",shape=ellipse]
+  right_right_right[label="Right\nGreat Grand Child",color="#ff0000",shape=ellipse]
+  
+	
+  root  -> left[minlen=3];
+  root  -> right;
+  left  -> left_left[color="#0000ff",minlen=2];
+  left  -> left_right[color="#0000ff"];
+  right -> right_left[color="#ff0000"];
+  right -> right_right[color="#ff0000"];
+  root -> right_right_right;
+  right -> right_right_right[color="#ff0000"];
+  right_right -> right_right_right[color="#ff0000"];
+  root -> right_right;
+  root -> right_left;
+                
+}
