@@ -1,0 +1,23 @@
+digraph G { node[shape=box] 
+
+shinygold [fillcolor=" #dfaf37 ",style="filled"]
+
+darkred [fillcolor=" #9b1003 ",style="filled"]
+
+shinygold -> darkred
+darkorange [fillcolor=" #dc582a ",style="filled"]
+
+darkred -> darkorange
+darkyellow [fillcolor=" #ffcc00 ",style="filled"]
+
+darkorange -> darkyellow
+darkgreen [fillcolor=" #006400 ",style="filled"]
+
+darkyellow -> darkgreen
+darkblue [fillcolor=" #1338be ",style="filled"]
+
+darkgreen -> darkblue
+darkviolet [fillcolor=" #9400d3 ",style="filled"]
+
+darkblue -> darkviolet
+}
