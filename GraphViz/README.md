@@ -1,4 +1,4 @@
-This folder contains files relevant to [this post](https://www.linkedin.com/pulse/visualization-graphviz-menaka-sankaralingam/?trackingId=sCsFkXpPTZ6m43hW9mU5OA%3D%3D).
+This folder contains files relevant to [this post](https://www.linkedin.com/pulse/visualization-graphviz-menaka-sankaralingam).
 
 **Example 1**
 
